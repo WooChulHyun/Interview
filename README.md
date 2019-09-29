@@ -1,8 +1,8 @@
 # 인터뷰 정리
 
-## HTML
+# HTML
 
-### **DOCTYPE이란?**
+## **DOCTYPE이란?**
 
 DOCTYPE은 document type의 약어입니다. DOCTYPE은 항상 **DTD(Document Type Definition)**와 관련됩니다.
 
@@ -16,7 +16,7 @@ html문서 작성시 브라우저에게 버전을 알려주기 위하여 맨 처
 
 웹 페이지의는 DOCTYPE 선언이 필요합니다. 유저 에이전트에게 문서가 존중하는 HTML 사양의 버전을 알리는데 사용됩니다.
 
-### **cookie, sessionStorage, localStorage 사이의 차이점을 설명하세요.**
+## **cookie, sessionStorage, localStorage 사이의 차이점을 설명하세요.**
 
 위 세 가지 기술은 모두 클라이언트 측에서 값을 저장하는 key-value 저장소 매커니즘입니다. 모두 문자열로만 값을 저장할 수 있습니다.
 
@@ -28,7 +28,7 @@ html문서 작성시 브라우저에게 버전을 알려주기 위하여 맨 처
 | 용량(도메인당)              | 4kb                                                            | 5MB            | 5MB          |
 | 접근성                      | 모든 윈도우                                                    | 모든 윈도우    | 같은 탭      |
 
-### **`<script>`, `<script async>`, `<script defer>` 사이의 차이점을 설명하세요.**
+## **`<script>`, `<script async>`, `<script defer>` 사이의 차이점을 설명하세요.**
 
 `<script>` - HTML 파싱이 중단되고, 스크립트를 즉시 가져오고 실행되며, 스크립트 실행 후 HTML 파싱이 다시 시작됩니다.
 
