@@ -1,7 +1,5 @@
 # 인터뷰 정리
 
----
-
-##HTML
+## HTML
 
 DOCTYPE이란?
