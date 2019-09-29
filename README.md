@@ -2,5 +2,5 @@
 
 ## HTML
 
-- DOCTYPE이란?
+- **DOCTYPE이란?**
   - test
