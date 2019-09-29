@@ -3,4 +3,4 @@
 ## HTML
 
 - DOCTYPE이란?
-  test
+  - test
