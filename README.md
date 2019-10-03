@@ -13,3 +13,5 @@
 - Resetting과 Normalizing CSS의 차이점은 무엇인가요? 당신은 무엇을 선택할 것이며, 그 이유는 무엇인가요?
 
 ## JavaScript
+
+- 클로저는 무엇이며, 어떻게/왜 사용하나요?
