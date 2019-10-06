@@ -17,3 +17,6 @@
 - 클로저는 무엇이며, 어떻게/왜 사용하나요?
 - 호이스팅이란?
 - 브라우저 동작 원리
+- 객체 지향 프로그래밍(Object Oriented Programming)
+- this
+- 화살표함수와 function 함수의 차이점
