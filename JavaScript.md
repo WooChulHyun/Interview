@@ -57,3 +57,11 @@ let과 const로 선언한 변수는 객체 환경 레코드가 아닌 선언적 
 ![참고](https://t1.daumcdn.net/cfile/tistory/99F099375C124B2D02)
 
 > 출처: http://tcpschool.com/webbasic/works
+
+서버의 기본설정(보통 index.html)을 서버로 부터 받게되면 HTML과 CSS를 파싱합니다(파싱은 일련의 문자열을 의미있는 token(어휘 분석의 단위) 으로 분해하고 그것들로 이루어진 tree 를 만드는 과정).
+
+이 과정으로 DOM tree, CSSOM tree를 생성하고 이것들을 결합하여 Render Tree를 생성한다. 이렇게 생성된 Render Tree를 기반으로 브라우저는 웹 페이지를 표시한다.
+
+자바스크립트는 렌더링 엔진이 아닌 자바스크립트 엔진이 처리한다. HTML 파서는 script 태그를 만나면 자바스크립트 코드를 실행하기 위해 DOM 생성 프로세스를 일시 중지하고 자바스크립트 엔진으로 제어 권한을 넘긴다.
+
+제어 권한을 넘겨 받은 자바스크립트 엔진은 script 태그 내의 자바스크립트 코드 또는 script 태그의 src 어트리뷰트에 정의된 자바스크립트 파일을 로드하고 파싱하여 실행한다. 렌더링 엔진이 HTML과 CSS를 파싱하여 DOM tree와 CSSOM tree를 생성하듯이 자바스크립트 엔진은 자바스크립트를 파싱하여 AST(Abstract Syntax Tree, 추상적 구문 트리)를 생성한다.
